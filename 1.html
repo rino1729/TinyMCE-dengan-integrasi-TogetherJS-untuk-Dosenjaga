@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>togetherjs tinymce sync testbed</title>
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="tinymce/tinymce.min.js"></script>
+  <script>
+  	$SCRIPT_ROOT = "";
+  	var TogetherJSConfig_autoStart = true;
+  	var TogetherJSConfig_suppressJoinConfirmation = true;
+  	var TogetherJSConfig_dontShowClicks = true;
+  	var TogetherJSConfig_tinymce = true;
+  </script>
+  <script type="text/javascript" src="http://togetherjs-tinymce.herokuapp.com/static/js/togetherjs.js"></script>
+  <!-- http://togetherjs-tinymce.herokuapp.com/static/js/togetherjs.js -->
+  <!-- http://localhost:8000/togetherjs.js -->
+  <script type="text/javascript" src="app.js"></script>
+</head>
+  <body>
+    Editor #1
+    <div class="tinymce"></div>
+    Editor #2
+    <div class="tinymce"></div>
+    <textarea></textarea>
+  </body>
+</html>

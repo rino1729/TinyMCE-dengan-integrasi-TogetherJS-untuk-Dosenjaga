@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>English Section 1</title>
+	<link rel="icon" type="image/png" href="image/dosenjaga.png">
+	    
+
+    <!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="\tinymce\skins\lightgray\content.inline.min.css">
+	<link rel="stylesheet" type="text/css" href="\tinymce\skins\lightgray\content.min.css">
+	    <link rel="stylesheet" type="text/css" href="\tinymce\skins\lightgray\skin.ie7.min.css">
+		<link rel="stylesheet" type="text/css" href="\tinymce\skins\lightgray\skin.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        
+    <![endif]-->
+    
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				
+                <img id="header" src="image/logodosenjagabig.png" width="188px" height="37px" left="0px" href="#"></img>
+				
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+		<img src="image/profil.png" style="position:relative; left:140px; top:69px; width:100px; height:79px;">
+            <div class="col-lg-12 text-center">
+                <h3 id="perintah" style="text-align:left; position:relative; left:230px; top:0px; width:500px; height:80px;">Masukan Gambar di kotak Dialog</h3>
+                <ul class="list-unstyled">
+                </ul>
+            </div>
+        </div>
+	<div class="tinymce"></div>
+	
+	
+        <!-- /.row -->
+
+    </div>
+<button style="position:relative; left:775px; top:-40px;" class="togetherjs" onclick="TogetherJS(this); return false;">Start TogetherJS</button>
+
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+	<div style="position:relative; left:230px; top:10px;">
+	<form method="POST">
+<textarea name="review" cols=40 rows=4>I urge you to see it.
+</textarea>
+<input style="position:relative; left:0px; top:-8px;" type="submit" value="Publish">
+</form>
+	</div>
+	
+	
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="tinymce/tinymce.min.js"></script>
+    <script>
+  	$SCRIPT_ROOT = "";
+  	var TogetherJSConfig_autoStart = true;
+  	var TogetherJSConfig_suppressJoinConfirmation = true;
+  	var TogetherJSConfig_dontShowClicks = true;
+	var TogetherJSConfig_tinymce = true;
+  </script>
+
+	<script type="text/javascript" src="app.js"></script>
+	<script src="http://togetherjs-tinymce.herokuapp.com/static/js/togetherjs.js"></script>
+	<script src="jquery-ui/jquery-ui.js"></script>
+	<link rel=stylesheet type=text/css href="jquery-ui/jquery-ui.css" />
+    <style type=text/css>
+    .oke{
+    border : transparent solid 2px;
+    }
+    .hover{
+    border-color : blue;
+    }
+    </style>
+</body>
+</html>
