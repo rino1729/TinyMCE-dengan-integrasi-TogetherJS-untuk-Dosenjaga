@@ -9,15 +9,16 @@ untuk editor pada halaman ini menggunakan library TinyMCE dengan pemograman dasa
 untuk membuka library TinyMCE dengan dapat diunduh di
 http://www.tinymce.com/download/download.php
 untuk menempelkan pada project tambahkan script
-
+```
 <script src="//tinymce.cachefly.net/4.2/tinymce.min.js"></script>
-
+```
 atau tambahkan file lokal dengan tambahan library jquery.
 
-untuk menambahkan fungsi TogetherJS pada halaman tambahakan script 
+untuk menambahkan fungsi TogetherJS pada halaman tambahakan script
 
+```
 <script src="https://togetherjs.com/togetherjs-min.js"></script>
-
+```
 dan fungsi "var" untuk memulai otomatis library TogetherJS
 
 var TogetherJSConfig_autoStart = true;
